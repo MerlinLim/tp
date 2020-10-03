@@ -7,6 +7,7 @@ import static seedu.address.model.ModelPerson.PREDICATE_SHOW_ALL_PERSONS;
 import java.util.List;
 import java.util.Set;
 
+import seedu.address.commons.core.Messages;
 import seedu.address.commons.core.index.Index;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.ModelPerson;
@@ -53,6 +54,10 @@ public class RemarkCommand extends Command {
     public CommandResult execute(ModelPerson modelPerson) throws CommandException {
         requireNonNull(modelPerson);
         List<Person> lastShownList = modelPerson.getFilteredPersonList();
+
+        if (index.getZeroBased() >= lastShownList.size()) {
+            throw new CommandException(Messages.MESSAGE_INVALID_PERSON_DISPLAYED_INDEX);
+        }
 
         Person personToEdit = lastShownList.get(index.getZeroBased());
 
