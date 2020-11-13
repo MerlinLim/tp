@@ -73,6 +73,9 @@ title: User Guide
         * [3.5.4 Finding contacts: `find`](#354-finding-contacts---find-)
         * [3.5.5 Listing all contacts: `list`](#355-listing-all-contacts---list-)
         * [3.5.6 Deleting a contact: `delete`](#356-deleting-a-contact---delete-)
+        
+        <div style="page-break-after: always;"></div>
+        
         * [3.5.7 Clearing all contacts: `clear`](#357-clearing-all-contacts---clear-)
 6. [Final remarks](#6-final-remarks)
 7. [FAQ](#7-faq)
@@ -119,6 +122,8 @@ Icon/Text Style | Description
 
 Other than reading, you may also watch the demo video of Productiv [here](https://tiny.cc/Productiv-Demo-Video) to supplement this user guide.
 
+<div style="page-break-after: always;"></div>
+
 ## 3. Getting started
 
 Ready to be productive? Follow the steps here to _get quacking with Productiv_:
@@ -140,6 +145,8 @@ To enhance your product management, here are the 4 modes that are available to y
 * **Deliverable**: Helps you track your product’s deliverables so that you can aim better to meet them.
 * **Meeting**: Helps you manage your product-related meetings so that you can be clearer about your meeting schedule.
 * **Contact**: Helps you organise your developer or stakeholder contacts so that you can reference them easily.
+
+<div style="page-break-after: always;"></div>
    
 Next, let's get acquainted with Productiv's application layout.
 If you have launched Productiv, you should see a window similar to the figure below.
@@ -174,6 +181,8 @@ Here is a sequence of example commands that you can try:
 
 And it's as simple as that! But of course, there's more to just these three commands.
 
+<div style="page-break-after: always;"></div>
+
 ## 5. Commands
 
 This section provides a list of all the available commands you can use to improve your productivity.
@@ -198,6 +207,8 @@ For example, here's the breakdown of the command `add t/TITLE by/DEADLINE m/MILE
 **:information_source: Note:** Prefix-parameter pairs in square brackets are optional, i.e. `[c/CONTACTS]` and `[d/DESCRIPTION]` need not be present in the command.
 
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ### 3.1 General
 
