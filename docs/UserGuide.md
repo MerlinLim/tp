@@ -179,7 +179,7 @@ Format: `switch MODE`
 
 Parameter      | Description                  |
 ---------------|------------------------------|
-`MODE`         | The mode that you wish to navigate to. <br><br> It can be only be one of the following:  <br>&emsp;&bull;`db` (dashboard) <br> &emsp;&bull;`dv` (deliverable)<br> &emsp;&bull;`m` (meeting) <br> &emsp;&bull;`c` (contact) | The following are the only valid inputs:<br>&emsp;&bull;`db` (Dashboard)<br> &emsp;&bull;`dv` (Deliverable)<br> &emsp;&bull;`m` (Meeting)<br> &emsp;&bull;`c` (Contact)
+`MODE`         | The mode that you wish to navigate to. <br><br> It can be only be one of the following:  <br>&emsp;&bull;`db` (dashboard) <br> &emsp;&bull;`dv` (deliverable)<br> &emsp;&bull;`m` (meeting) <br> &emsp;&bull;`c` (contact) | 
 
 <div markdown="block" class="alert alert-success">
 
@@ -234,6 +234,8 @@ You can only use commands found under [General](#31-general).
   
 </div>
 
+<div style="page-break-after: always;"></div>
+
 ### 3.3 Deliverable  [<img src="images/productivDuck.png" style="float:right;width:30px;height:30px;" alt="duck">](#table-of-contents)
    
 <p align="center">
@@ -250,6 +252,8 @@ You can only use commands found under [General](#31-general).
 Refer to [switch](#311-switching-modes---switch-) for more information.
 
 </div>
+
+<div style="page-break-after: always;"></div>
 
 #### 3.3.1 Adding a deliverable: `add`
 
@@ -277,6 +281,8 @@ adds a deliverable with the title `Login screen`, deadline `10-10-2020 18:00`,
 milestone `1.1`, contacts `Jordan Woods, Betsy Crowe` and description `Include email and password fields`.
 * `add t/Find profile page template by/08-12-2020 12:00 m/2.1.1` 
 adds a deliverable with the title `Find profile page template`, deadline `08-12-2020 12:00` and milestone `2.1.1`.
+
+<div style="page-break-after: always;"></div>
 
 #### 3.3.2 Editing a deliverable: `edit`
 
@@ -323,6 +329,8 @@ Parameter      | Description                   | Example
 Example:
 * `done 1` marks the 1st deliverable in your displayed deliverable list as completed.
 
+<div style="page-break-after: always;"></div>
+
 #### 3.3.4 Marking a deliverable as on-going: `undone`
 
 Marks the specified deliverable from your displayed deliverable list as on-going.
@@ -363,6 +371,8 @@ Example:
  
 </p>
    
+<div style="page-break-after: always;"></div>
+   
 #### 3.3.6 Finding deliverables: `find`
 
 Finds the deliverables whose titles or descriptions contain any of the given keywords.
@@ -388,6 +398,8 @@ Examples:
 Lists out all deliverables in your deliverable list, if any.
 
 Format: `list`
+
+<div style="page-break-after: always;"></div>
 
 #### 3.3.8 Deleting a deliverable: `delete`
 
@@ -420,6 +432,8 @@ Format: `clear`
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 ### 3.4 Meeting  [<img src="images/productivDuck.png" style="float:right;width:30px;height:30px;" alt="duck">](#table-of-contents)
 
 <p align="center">
@@ -436,6 +450,8 @@ Format: `clear`
 Refer to [switch](#311-switching-modes---switch-) for more information.
 
 </div>   
+
+<div style="page-break-after: always;"></div>
  
 #### 3.4.1 Adding a meeting: `add`
 
@@ -466,6 +482,8 @@ end time `10:00`, contacts `Jordan Woods, Betsy Crowe` and description `Refine w
 adds a meeting with the title `User research review`, start date and time `15-12-2020 13:00`, 
 end time `15:00` and location `Meeting room A`.
 
+<div style="page-break-after: always;"></div>
+
 #### 3.4.2 Editing a meeting: `edit`
 
 Edits an existing meeting in your displayed meeting list.
@@ -492,6 +510,8 @@ edits the title of the 2nd meeting to be `Discuss final release features`
 and its description to be `Finalise dashboard functions`.
 * `edit 4 c/` clears the optional contact field of the 4th meeting.
 
+<div style="page-break-after: always;"></div>
+
 #### 3.4.3 Viewing a meeting: `view`
 
 Displays more details of the specified meeting from your displayed meeting list.
@@ -512,6 +532,8 @@ Example:
  
 </p>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 #### 3.4.4 Finding meetings: `find`
 
@@ -538,6 +560,8 @@ Examples:
 Lists out all meetings in your meeting list, if any.
 
 Format: `list`
+
+<div style="page-break-after: always;"></div>
 
 #### 3.4.6 Deleting a meeting: `delete`
 
@@ -570,6 +594,9 @@ Format: `clear`
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
+
 ### 3.5 Contact  [<img src="images/productivDuck.png" style="float:right;width:30px;height:30px;" alt="duck">](#table-of-contents)
 
 <p align="center">
@@ -586,6 +613,9 @@ Format: `clear`
 Refer to [switch](#311-switching-modes---switch-) for more information.
 
 </div> 
+
+<div style="page-break-after: always;"></div>
+
 
 #### 3.5.1 Adding a contact: `add`
 
@@ -613,6 +643,8 @@ adds a developer with the name `Jordan Woods`, email `jordanwoods@glutter.com` a
 * `add n/Betsy Crowe r/stk e/betsybet872@pmail.com`
 adds a stakeholder with the name `Betsy Crowe` and email `betsybet872@pmail.com`.
 
+<div style="page-break-after: always;"></div>
+
 #### 3.5.2 Editing a contact: `edit`
 
 Edits an existing contact in your displayed contact list.
@@ -639,6 +671,8 @@ edits the email and phone number of the 1st contact to be `jeremysand@glutter.co
 *  `edit 2 p/` 
 clears the optional phone field of the 2nd contact.
 
+<div style="page-break-after: always;"></div>
+
 #### 3.5.3 Viewing a contact: `view`
 
 Displays more details of the specified contact from your displayed contact list.
@@ -659,6 +693,8 @@ Example:
  
 </p>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 #### 3.5.4 Finding contacts: `find`
 
@@ -686,6 +722,8 @@ Lists out all contacts from your contact list, if any.
 
 Format: `list`
 
+<div style="page-break-after: always;"></div>
+
 #### 3.5.6 Deleting a contact: `delete`
 
 Deletes the specified contact from your displayed contact list.
@@ -705,9 +743,13 @@ Clears all contacts from your contact list, if any.
 
 Format: `clear`
 
+<div style="page-break-after: always;"></div>
+
 ## 6. Final remarks  [<img src="images/productivDuck.png" style="float:right;width:30px;height:30px;" alt="duck">](#table-of-contents)
 
 (...)
+
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -725,6 +767,8 @@ Format: `clear`
 **Q**: Can I manage multiple products on Productiv?<br>
 **A**: Currently, Productiv is catered for a single product but future versions of Productiv will allow you to manage multiple products, so stay tuned!
 
+<div style="page-break-after: always;"></div>
+
 ---------------------------------------------------------------------------------------------------------------------
 
 ## 8.Command summary  [<img src="images/productivDuck.png" style="float:right;width:30px;height:30px;" alt="duck">](#table-of-contents)
@@ -736,6 +780,8 @@ Command        | Format        | Example
 Switch         | `switch MODE` | `switch dv`
 Help           | `help`        | `help`
 Exit           | `exit`        | `exit`
+
+<div style="page-break-after: always;"></div>
 
 ### 8.2 Deliverable
 
@@ -751,6 +797,8 @@ List           | `list`  | `list`
 Delete         | `delete INDEX`  |  `delete 3`
 Clear          | `clear` | `clear`
 
+<div style="page-break-after: always;"></div>
+
 ### 8.3 Meeting
 
 Command        | Format        | Example
@@ -763,6 +811,8 @@ List           | `list`   | `list`
 Delete         | `delete INDEX`   |   `delete 3`
 Clear          | `clear`  | `clear`
 
+<div style="page-break-after: always;"></div>
+
 ### 8.4 Contact
 
 Command        | Format        | Example
@@ -774,6 +824,8 @@ Find           | `find KEYWORDS`   |   `find John Kite`
 List           | `list`   | `list`
 Delete         | `delete INDEX`   |   `delete 3`
 Clear          | `clear`  | `clear`
+
+<div style="page-break-after: always;"></div>
 
 ---------------------------------------------------------------------------------------------------------------------
 
