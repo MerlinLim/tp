@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page <img style src="images/productivDuck.png" width="10px" height="10px">
 title: User Guide
 ---
 <div>
